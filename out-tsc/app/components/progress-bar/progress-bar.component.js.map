@@ -1,1 +1,0 @@
-{"version":3,"file":"progress-bar.component.js","sourceRoot":"","sources":["progress-bar.component.ts"],"names":[],"mappings":"AAAA;;;GAGG;;;;;;;;;;OAEI,EAAE,SAAS,EAAE,KAAK,EAAE,MAAM,eAAe;AAOhD;IAAA;IAMA,CAAC;IAJC;QAAC,KAAK,EAAE;;yDAAA;IAPV;QAAC,SAAS,CAAC;YACT,QAAQ,EAAE,cAAc;YACxB,WAAW,EAAE,+BAA+B;YAC5C,SAAS,EAAE,CAAC,+BAA+B,CAAC;SAC7C,CAAC;;4BAAA;IAOF,2BAAC;AAAD,CAAC,AAND,IAMC"}
