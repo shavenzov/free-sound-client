@@ -12,7 +12,7 @@ export class AudioService extends EventEmitter<AudioServiceEvent> {
   private renderer : Renderer2;
 
   /**
-   * Проигрывается ли в данный момент звук
+   * Sound is playing right now or not
    */
   private _playing : boolean;
 
@@ -24,7 +24,7 @@ export class AudioService extends EventEmitter<AudioServiceEvent> {
   private _currentSound : SoundInstance = null;
 
   /**
-   * Описание текущего проигрываемого звука
+   * Sound description of current playing sound
    * @returns {SoundInstance}
    */
   public get currentSound() : SoundInstance
@@ -33,7 +33,8 @@ export class AudioService extends EventEmitter<AudioServiceEvent> {
   }
 
   /**
-   * Определяет идет ли буферизация звука в данный момент или нет
+   *
+   * Sound is buffering right now or not
    * @returns {boolean}
    */
   public get buffering() : boolean
@@ -161,7 +162,7 @@ export class AudioService extends EventEmitter<AudioServiceEvent> {
   }
 
   /**
-   * Проверяет текущий sound текущий или нет
+   * Sound param is current or not
    * @param sound
    * @returns {boolean}
    */

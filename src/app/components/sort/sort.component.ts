@@ -48,10 +48,10 @@ export class SortComponent implements OnInit{
 
   public sortButtonClick( sortField : SortButtonParam, selectedField : FreeSoundSort ) : void
   {
-    //Изменился параметр сортировки
+    //Changed sort param
     if ( sortField.descSort && ( this.prevSortField != sortField ) )
     {
-      //Определяем порядок сортировки для нового параметра
+      //Calculating sort order for new params
       selectedField = ( this.prevSortField.descSort == this.prevSelectedField ) ? sortField.descSort : sortField.ascSort;
     }
 

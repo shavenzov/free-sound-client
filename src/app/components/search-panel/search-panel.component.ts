@@ -21,14 +21,14 @@ import {sortFields} from '../../constants';
 export class SearchPanelComponent implements OnInit {
 
   /**
-   * Задержка в мс перед searchParamsChanged
+   * Delay in ms before searchParamsChanged
    * @type {number}
    */
   @Input()
   public delayTime : number = 500;
 
   /**
-   * Минимальная длина текста запроса
+   * Minimal query text length
    * @type {number}
    */
   @Input()
