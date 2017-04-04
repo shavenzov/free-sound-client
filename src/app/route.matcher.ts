@@ -23,7 +23,7 @@ export function mainPageMatcher( segments : UrlSegment[], segmentGroup : UrlSegm
     return null;
   }
 
-  let consumed  : UrlSegment[]                       = ( segments.length == 0 ) ? [ new UrlSegment( "", null ) ] : segments;
+  let consumed  : UrlSegment[]                       = ( segments.length == 0 ) ? [ new UrlSegment( "", {} ) ] : segments;
   let posParams : { [ name : string ] : UrlSegment } = {};
 
   //Query param

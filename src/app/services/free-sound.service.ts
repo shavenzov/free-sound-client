@@ -20,15 +20,20 @@ export class FreeSoundService {
    */
   private authToken : AuthToken;
 
+  private apiSettings : FreeSoundAPIEnvironment;
+
   public constructor(
     private http      : Http,
     /**
      * API settings inject
      */
     @Inject( 'FSApiSettings' )
-    private apiSettings : any
+    apiSettings : any
 
-  ){}
+  )
+  {
+    this.apiSettings = <FreeSoundAPIEnvironment> apiSettings;
+  }
 
   /**
    * Redirects to authorization page

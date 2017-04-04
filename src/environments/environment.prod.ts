@@ -2,8 +2,8 @@ export const environment = {
   production          : true,
 
   freeSoundAPIEnvironment : {
-    key                 : "wwdJvgE56Z5IrYJiBJtmsVyyDO0VSAZVACkG2MeR",
-    clientId            : "c1P0mtgQUf2l9GlI8nAH",
+    key                 : "jA2ECVlgRhiqhhOfmQvXnz8TTWDhiKKPkmMRGXkP",
+    clientId            : "MCpUnKUPh7ZyJpYGhVhf",
     baseURL             : "//www.freesound.org/apiv2/",
     defaultPageSize     : 15,
     maximumPageSize     : 150,

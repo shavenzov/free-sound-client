@@ -11,13 +11,17 @@ import {AudioService} from "./audio.service";
 @Injectable()
 export class FreeSoundUtilsService {
 
+  private apiSettings : FreeSoundAPIEnvironment;
+
   public constructor(
     private router      : Router,
 
     @Inject( 'FSApiSettings' )
-    private apiSettings : any,
+    apiSettings : any,
     private audioService: AudioService
-  ) {
+  )
+  {
+    this.apiSettings = <FreeSoundAPIEnvironment> apiSettings;
   }
 
   private calculateUrlTree( params : FreeSoundSearchParams ) : UrlTree
