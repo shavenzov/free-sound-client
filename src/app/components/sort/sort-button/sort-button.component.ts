@@ -28,7 +28,7 @@ export class SortButtonComponent {
    return ( this.selected == this.sortField.descSort ) || ( this.selected == this.sortField.ascSort );
  }
 
- private clickHandler() : void
+  public clickHandler() : void
  {
    if ( this.isSelectedInSortField && this.sortField.descSort )
    {

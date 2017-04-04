@@ -1,5 +1,5 @@
 export const environment = {
-  production          : false,
+  production          : true,
 
   freeSoundAPIEnvironment : {
     key                 : "wwdJvgE56Z5IrYJiBJtmsVyyDO0VSAZVACkG2MeR",

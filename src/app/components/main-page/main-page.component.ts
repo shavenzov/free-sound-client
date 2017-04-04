@@ -76,14 +76,14 @@ export class MainPageComponent implements OnInit {
     this.msgs = [ {severity:'error', summary:'Error', detail: message} ];
   }
 
-  private onQueryChanged( params : FreeSoundSearchParams ) : void
+  public onQueryChanged( params : FreeSoundSearchParams ) : void
   {
     params.page = 1;
 
     this.freeSoundUtils.navigate( params );
   }
 
-  private onSortChanged( params : FreeSoundSearchParams ) : void
+  public onSortChanged( params : FreeSoundSearchParams ) : void
   {
     params.page = 1;
 

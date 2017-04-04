@@ -15,7 +15,7 @@ export class FreeSoundUtilsService {
     private router      : Router,
 
     @Inject( 'FSApiSettings' )
-    private apiSettings : FreeSoundAPIEnvironment,
+    private apiSettings : any,
     private audioService: AudioService
   ) {
   }

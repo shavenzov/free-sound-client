@@ -23,10 +23,10 @@ export class FreeSoundService {
   public constructor(
     private http      : Http,
     /**
-     * Инжект настроек API
+     * API settings inject
      */
     @Inject( 'FSApiSettings' )
-    private apiSettings : FreeSoundAPIEnvironment
+    private apiSettings : any
 
   ){}
 

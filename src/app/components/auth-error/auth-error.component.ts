@@ -34,7 +34,7 @@ export class AuthErrorComponent implements OnInit {
     }
   }
 
-  private onTryAgainButtonClick() : void
+  public onTryAgainButtonClick() : void
   {
     this.freeSoundService.redirectToOAuthPage( this.route.snapshot.queryParams[ 'state' ] );
   }
