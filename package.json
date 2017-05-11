@@ -2,6 +2,10 @@
   "name": "free-sound-client",
   "version": "0.1.0",
   "license": "MIT",
+  "person" : {
+    "name" : "Denis Shavenzov",
+    "email" : "shavenzov@gmail.com"
+  },
   "angular-cli": {},
   "scripts": {
     "ng": "ng",
