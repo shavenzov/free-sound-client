@@ -9,5 +9,5 @@ App created on [Angular](https://angular.io/) framework and [freesound api](http
 ## Demo
 You can see demo here : <https://shavenzov.github.io/free-sound-client/search/disco/rating_desc/>.
 
-Use demo account ( _Login_ : *demo1234* | _Password_ : *demo1234* ) or register yours on [freesound.org](http://freesound.org/home/register/).  
+Use demo account ( _Login_ : *demo1234* | _Password_ : *demo1234* ) or register yours on [freesound.org](http://freesound.org/home/register/). 
 
